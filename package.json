@@ -1,0 +1,23 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "<p align=\"left\">\r entry: Kaynak klasörümüzü burada belirtiriz.\r output: İşlemleri yaptıktan sonra dosyanın nereye kaydedileceğini burada belirtiriz.\r mode: Projemizi yapılandırma durumunu belirler.      (development/production)\r loaders: Webpack sadece javascript ve json dosya türleriyle çalışır. Loaders ile biz diğer dosya türlerini bu dosya türlerine çevirip, kullanabiliriz. (css, png, sass, scss, jpeg vs.)\r plugins: Paketlerin optimizasyonu ve ortam değişkenleri gibi değerleri projemize ekleyebiliriz.\r optimization: Optimizasyon işlemlerini burada yaparız.\r watch: Dosyaları izler ve bir değişiklik olduğunda paketteki oluşturulan dosyaları günceller.\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
