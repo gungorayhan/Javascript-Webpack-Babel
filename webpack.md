@@ -16,6 +16,7 @@ webpack.config.js<br/>
 .babelrc
 
 ## webpack.config.js
+npx webpack
 
 <p>
 const path = require("path)
