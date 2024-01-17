@@ -19,7 +19,7 @@ module.exports={
     module:{
         rules:[
             {
-                test:/\.js$/, //.js ile biten  tüm dosyaları tara
+                test:/\.js$/, //.js ile biten  tüm dosyaları tara.  $ bitirme noktası devamı yok anlamında
                 exclude:/node_modules/, //node_modules dosyarlarını bu işleme dahil etme
                 loader:"babel-loader" // işlemi yapacak prograam
             }
